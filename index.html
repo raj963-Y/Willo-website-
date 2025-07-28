@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willo - On Crystal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/willo-logo.jpg" alt="Willo Crystal Token Logo" class="logo">
+        <h1>Willo — on crystal</h1>
+        <p>The future of adaptive supply crypto tokens 💠</p>
+    </header>
+
+    <section id="about">
+        <h2>About Willo</h2>
+        <p>Willo is a revolutionary crypto token built on the BNB Smart Chain. Its supply dynamically adjusts based on user growth, ensuring fairness and community-driven value. Powered by crystal clarity, trust, and scalability.</p>
+    </section>
+
+    <section id="roadmap">
+        <h2>Roadmap</h2>
+        <ul>
+            <li>✅ Concept Launch & Community Building</li>
+            <li>🚧 Token Smart Contract Development</li>
+            <li>🔜 Website & Airdrop Launch</li>
+            <li>🔮 Exchange Listings & Growth Campaign</li>
+        </ul>
+    </section>
+
+    <section id="supply">
+        <h2>Live Supply Counter</h2>
+        <p><strong id="supplyCounter">10,000</strong> WILLO tokens</p>
+    </section>
+
+    <section id="howtobuy">
+        <h2>How to Buy Willo</h2>
+        <ol>
+            <li>Connect your wallet (MetaMask or Trust Wallet)</li>
+            <li>Add BNB to your wallet</li>
+            <li>Go to PancakeSwap and paste Willo's contract address</li>
+        </ol>
+    </section>
+
+    <section id="whitepaper">
+        <h2>Whitepaper</h2>
+        <p>Read our vision, tokenomics, and future plans.</p>
+        <a href="#" class="button">Download Whitepaper</a>
+    </section>
+
+    <section id="airdrop">
+        <h2>Airdrop</h2>
+        <p>Complete tasks and earn free Willo tokens!</p>
+        <ul>
+            <li>Join our <a href="https://t.me/raj96t">Telegram</a></li>
+            <li>Follow us on <a href="https://twitter.com/Raj831112889045">Twitter</a></li>
+            <li>Share the project and tag 3 friends</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact us on Telegram: <a href="https://t.me/raj96t">t.me/raj96t</a></p>
+        <p>Powered by the community 🌐</p>
+    </footer>
+
+    <script>
+        // Simulated live supply counter
+        let supply = 10000;
+        setInterval(() => {
+            supply += Math.floor(Math.random() * 5);
+            document.getElementById("supplyCounter").innerText = supply.toLocaleString();
+        }, 3000);
+    </script>
+</body>
+</html>
